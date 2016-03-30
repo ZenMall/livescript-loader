@@ -1,17 +1,25 @@
 {
-	"name": "livescript-loader",
-	"version": "0.1.5",
-	"author": "Derk Bell",
-	"description": "LiveScript loader module for webpack",
-	"scripts": {
-		"build": "lsc -cb ./index.ls"
-	},
-	"dependencies": {
-		"LiveScript": "1.2.0",
-		"loader-utils": "0.2.x"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/appedemic/livescript-loader.git"
-	}
+  "author": {
+    "name": "Derk Bell"
+  },
+  "dependencies": {
+    "LiveScript": ">=1.2.0",
+    "loader-utils": "0.2.x"
+  },
+  "description": "LiveScript loader module for webpack",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "baccc68e0547c41d1ccc36259c55c5ec4a3d1d9a",
+    "tarball": "http://registry.npmjs.org/livescript-loader/-/livescript-loader-0.1.1.tgz"
+  },
+  "maintainers": [
+    {
+      "email": "derk@appedemic.nl",
+      "name": "appedemic"
+    }
+  ],
+  "name": "livescript-loader",
+  "optionalDependencies": {},
+  "version": "0.1.1"
 }
